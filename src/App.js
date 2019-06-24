@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-primary mb-3">My Blog</h1>
+      <p className="text-primary mb-3 display-4">My Blog</p>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
     </div>
